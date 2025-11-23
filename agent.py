@@ -6,9 +6,9 @@ MODEL = "gemini-2.5-flash"
 SESSIONS_DIR = os.path.join(os.path.dirname(__file__), "sessions")
 os.makedirs(SESSIONS_DIR, exist_ok=True)
 
-# -------------------------
+# ------------------------
 # QUESTION BANK
-# -------------------------
+# ------------------------
 QUESTION_BANK = {
     "software_developer": {
         "fresher": {
